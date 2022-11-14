@@ -1,0 +1,122 @@
+@import url("/css/reboot.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: url('../img/main-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    padding: 50px 0 50px;
+}
+
+.header_title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.introduction__descr {
+    margin-bottom: 20px;
+}
+
+.introduction__wrapper {
+    max-width: 685px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.happening {
+    padding: 50px 0 50px;
+}
+
+.happening__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.happening__item img {
+    width: 570px;
+    height: 790px;
+}
+
+.happening__item .title {
+    max-width: 450px;
+}
+
+.happening__descr {
+    max-width: 450px;
+}
+
+.says {
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+.tricks {
+    padding: 50px 0 50px;
+}
+
+.whydo {
+    padding: 50px 0 50px;
+}
+
+.tricks__item img {
+    width: 556px;
+    height: 770px;
+}
+
+.tricks__Wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.tricks__item--img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.whydo__Wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.whydo__item img {
+    width: 556px;
+    height: 770px;
+}
+
+.whydo__item--img {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
